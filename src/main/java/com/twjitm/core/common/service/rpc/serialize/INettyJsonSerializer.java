@@ -1,0 +1,1 @@
+package com.twjitm.core.common.service.rpc.serialize;import java.io.IOException;/** * @author twjitm - [Created on 2018-08-22 11:01] * @company https://github.com/twjitm/ * @jdk java version "1.8.0_77" */public interface INettyJsonSerializer {    public String serialize() throws IOException;    public void deserialize(String pack);}

@@ -1,0 +1,1 @@
+package com.twjitm.core.common.service.rpc.client;/** * rpc远程回调接口 * @author twjitm - [Created on 2018-08-20 11:46] * @jdk java version "1.8.0_77" * */public interface NettyAsyncRPCCallback {    void success(Object result);    void fail(Exception e);}
